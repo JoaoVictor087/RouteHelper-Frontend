@@ -29,15 +29,6 @@ const SobreNos = () =>{
                 <p className="text-white">João Victor Alves da Silva RM-559726</p>
             </div>
 
-            <div className="float-left 2xl:ml-[12%] md:ml-[12%] lg:ml-[7%] border-2 rounded-2xl mt-15">
-                <Image className="rounded-2xl" src="/images/foto1.png" alt="Membro 3" width={250} height={250} />
-                <nav className="text-white text-center">
-                    <Link className="mr-3" href="https://linkedin.com/in/trevisaan7">Linkedin</Link>
-                    |
-                    <Link className="ml-3" href="https://github.com/trevisz">GitHub</Link>
-                </nav>
-                <p className="text-white">João Victor Trevisan RM-560263</p>
-            </div>
          </div>   
         </>
     )
