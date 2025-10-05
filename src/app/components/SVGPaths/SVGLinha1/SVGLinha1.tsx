@@ -4,31 +4,31 @@ const SVGLinha1 = () =>{
     return(
         <>
                 <path className="segmento-tucuruvi-paradainglesa" d="M 970 262 L 970 296"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-paradainglesa-jardimsãopauloayrtonsenna" d="M 970 296 L 970 329"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-jardimsãopauloayrtonsenna-santana" d="M 970 329 L 970 360"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-santana-carandiru" d="M 970 360 L 970 390"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-carandiru-portuguesatietê" d="M 970 390 L 970 420"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-portuguesatietê-armênia" d="M 970 420 L 970 453"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-armênia-tiradentes" d="M 970 453 L 970 484"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-tiradentes-luz" d="M 970 484 L 970 600"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-luz-sãobento" d="M 970 600 L 970 695"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-sãobento-sé" d="M 970 695 L 970 732"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-sé-japãoliberdade" d="M 970 732 L 970 825"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-japãoliberdade-sãojoaquim" d="M 970 825 L 970 900"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-sãojoaquim-vergueiro" d="M 970 900 L 970 972"
-                      fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
+                      fill="none" stroke="yellow" strokeWidth="16" stroke-linecap="round"></path>
                 <path className="segmento-vergueiro-paraíso" d="M 970 972 L 970 1036"
                       fill="none" stroke="yellow" stroke-width="16" stroke-linecap="round"></path>
                 <path className="segmento-paraíso-anarosa" d="M 970 1036 L 970 1080"

@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect } from 'react'; // Adicionado useEffect
+import { useState, useEffect } from 'react';
 import Image from "next/image";
 import Localizacao from "../localizacao/localizacao";
 import SVGLinha1 from "@/app/components/SVGPaths/SVGLinha1/SVGLinha1";
@@ -16,6 +16,7 @@ import SVGLinha12 from "@/app/components/SVGPaths/SVGLinha12/SVGLinha12";
 import SVGLinha13 from "@/app/components/SVGPaths/SVGLinha13/SVGLinha13";
 import SVGLinha15 from "@/app/components/SVGPaths/SVGLinha15/SVGLinha15";
 import Baldeacoes from "@/app/components/SVGImages/Baldeações";
+import {getRota} from "@/app/components/services/api";
 
 
 const normalizarNomeEstacaoParaClasse = (nome: string): string => {
@@ -27,45 +28,45 @@ const MapaInterativo = () => {
   const [rota, setRota] = useState<string[]>([]);
 
   useEffect(() => {
-    
+
     const todosOsPaths = document.querySelectorAll<SVGPathElement>('#mapaPrincipalSVG path');
     todosOsPaths.forEach(p => {
       p.setAttribute('stroke', 'rgba(200, 200, 200, 0.3)');
-      p.setAttribute('stroke-width', '8'); 
+      p.setAttribute('strokeWidth', '8');
       p.setAttribute('stroke-dasharray', 'none');
     });
 
-    
+
     const todasAsEstacoes = document.querySelectorAll<SVGCircleElement>('#mapaPrincipalSVG circle');
     todasAsEstacoes.forEach(c => {
-      c.setAttribute('fill', 'rgba(150, 150, 150, 0.5)'); 
-      c.setAttribute('r', '6'); 
+      c.setAttribute('fill', 'rgba(150, 150, 150, 0.5)');
+      c.setAttribute('r', '6');
     });
 
     if (rota && rota.length > 0) {
       const rotaNormalizada = rota.map(normalizarNomeEstacaoParaClasse);
 
-      
+
       rotaNormalizada.forEach(nomeEstacaoNormalizado => {
-        if (!nomeEstacaoNormalizado) return; 
+        if (!nomeEstacaoNormalizado) return;
         const seletorEstacao = `#mapaPrincipalSVG .estacao-${nomeEstacaoNormalizado}`;
         const elementoEstacao = document.querySelector<SVGCircleElement>(seletorEstacao);
         if (elementoEstacao) {
           elementoEstacao.setAttribute('fill', 'rgb(0,255,127)');
-          elementoEstacao.setAttribute('r', '9'); 
+          elementoEstacao.setAttribute('r', '9');
         } else {
-          
+
         }
       });
 
-     
+
       for (let i = 0; i < rotaNormalizada.length - 1; i++) {
         const estacaoOrigem = rotaNormalizada[i];
         const estacaoDestino = rotaNormalizada[i+1];
 
-        if (!estacaoOrigem || !estacaoDestino) continue; 
+        if (!estacaoOrigem || !estacaoDestino) continue;
 
-        
+
         let seletorPath = `#mapaPrincipalSVG .segmento-${estacaoOrigem}-${estacaoDestino}`;
         let elementoPath = document.querySelector<SVGPathElement>(seletorPath);
 
@@ -76,14 +77,14 @@ const MapaInterativo = () => {
 
         if (elementoPath) {
           elementoPath.setAttribute('stroke', 'rgb(0,255,127)');
-          elementoPath.setAttribute('stroke-width', '12'); 
-          elementoPath.setAttribute('stroke-dasharray', '15,7'); 
+          elementoPath.setAttribute('stroke-width', '12');
+          elementoPath.setAttribute('stroke-dasharray', '15,7');
         } else {
-          
+
         }
       }
     }
-  }, [rota]); 
+  }, [rota]);
 
   const trocaRota = async () => {
     const origemInput = document.getElementById("origem") as HTMLInputElement;
@@ -98,47 +99,15 @@ const MapaInterativo = () => {
     }
 
     try {
-      const postResponse = await fetch("https://routehelper.up.railway.app/rotas", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          estacaoOrigem: origem,
-          estacaoDestino: destino
-        })
-      });
-
-      if (!postResponse.ok) {
-       
-        let errorMsg = `Erro ao calcular a rota (${postResponse.status}).`;
-        try {
-          const errorBody = await postResponse.json(); 
-          errorMsg = errorBody.message || errorBody.error || JSON.stringify(errorBody);
-        } catch {
-          
-          const errorText = await postResponse.text();
-          errorMsg = errorText || errorMsg;
-        }
-        throw new Error(errorMsg);
-      }
-
-      const responseData = await postResponse.json();
-      console.log("Resposta da api do backend:", responseData);
-
-      const { rotaCalculada } = responseData;
-      if (!rotaCalculada || !Array.isArray(rotaCalculada)) {
-        throw new Error("Formato de rota inválido recebido da API.");
-      }
-      console.log("Rota recebida:", rotaCalculada);
-      setRota(rotaCalculada);
-
-      alert("Sua rota foi traçada no mapa!");
-    } catch (error) {
-      console.error("Detalhe do erro:", error);
-      alert((error as Error).message || "Erro ao conectar com a API de rotas.");
+        const rotaCalculada = await getRota(origem, destino);
+        setRota(rotaCalculada);
+        alert("Sua rota foi traçada no mapa");
+        console.log("resposta do backend2: ", rotaCalculada);
+    }catch (error){
+        console.error("Detalhe do erro: ", error);
+        alert( "Ocorreu um erro ao buscar a rota.");
     }
-  };
+  }
 
   return (
       <>

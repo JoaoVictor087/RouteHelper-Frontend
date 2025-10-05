@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import {getStatusLinhas} from "@/app/components/services/api";
 
 type LinhaStatus = {
     codigo: number;
@@ -15,12 +16,8 @@ const ListaStatus = () => {
             setLoading(true);
             setError(null);
             try {
-                const response = await fetch("https://routehelper.up.railway.app/statusLinha");
-                if (!response.ok) {
-                    throw new Error(`Erro na requisição: ${response.status}`);
-                }
-                const data = await response.json();
-                setStatusLinhas(data);
+                const response = await getStatusLinhas();
+                setStatusLinhas(response);
             } catch (err: unknown) {
                 console.error("Erro ao buscar status das linhas:", err);
                 setError("Erro ao carregar os status das linhas.");
