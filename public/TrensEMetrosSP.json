@@ -1,0 +1,867 @@
+[
+    {
+        "estacao": "Tucuruvi",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Parada Inglesa",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Jardim São Paulo - Ayrton Senna",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Santana",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Carandiru",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Portuguesa - Tietê",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Armênia",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Tiradentes",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "São Bento",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Sé",
+        "linha": [1,3],
+        "cor": "Azul, Vermelha"
+    },
+    {
+        "estacao": "Japão - Liberdade",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "São Joaquim",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Vergueiro",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Paraíso",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Ana Rosa",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Vila Mariana",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Santa Cruz",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Praça da Árvore",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Saúde",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "São Judas",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Conceição",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Jabaquara",
+        "linha": 1,
+        "cor": "Azul"
+    },
+    {
+        "estacao": "Vila Madalena",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Sumaré",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Clínicas",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Consolação",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Trianon - Masp",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Brigadeiro",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Chácara Klabin",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Santos Imigrantes",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Alto do Ipiranga",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Sacomã",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Tamanduatei",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Vila Prudente",
+        "linha": 2,
+        "cor": "Verde"
+    },
+    {
+        "estacao": "Palmeiras - Barra Funda",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Marechal Deodoro",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Santa Cecília",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "República",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Anhangabaú",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Pedro II",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Brás",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Bresser - Mooca",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Tatuapé",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Carrão",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Penha",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Vila Matilde",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Guilhermina - Esperança",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Patriarca - Vila Ré",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Arthur Alvim",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Corinthians - Itaquera",
+        "linha": 3,
+        "cor": "Vermelha"
+    },
+    {
+        "estacao": "Vila Sônia",
+        "linha": 4,
+        "cor": "Amarela"
+    },
+    {
+        "estacao": "São Paulo - Morumbi",
+        "linha": 4,
+        "cor": "Amarela"
+    },
+    {
+        "estacao": "Butantã",
+        "linha": 4,
+        "cor": "Amarela"
+    },
+    {
+        "estacao": "Faria Lima",
+        "linha": 4,
+        "cor": "Amarela"
+    },
+    {
+        "estacao": "Fradique Coutinho",
+        "linha": 4,
+        "cor": "Amarela"
+    },
+    {
+        "estacao": "Oscar Freire",
+        "linha": 4,
+        "cor": "Amarela"
+    },
+    {
+        "estacao": "Paulista",
+        "linha": 4,
+        "cor": "Amarela"
+    },
+    {
+        "estacao": "Higienópolis - Mackenzie",
+        "linha": 4,
+        "cor": "Amarela"
+    },
+    {
+        "estacao": "Luz",
+        "linha": 4,
+        "cor": "Amarela, Vermelha, Turquesa,"
+    },
+    {
+        "estacao": "Capão Redondo",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Campo Limpo",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Vila das Belezas",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Giovanni Gronchi",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Santo Amaro",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Largo Treze",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Adolfo Pinheiro",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Alto da Boa Vista",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Borba Gato",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Brooklin",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Campo Belo",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Eucaliptos",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Moema",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "AACD - Servidor",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Hospital São Paulo",
+        "linha": 5,
+        "cor": "Lilás"
+    },
+    {
+        "estacao": "Jundiaí",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Várzea Paulista",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Campo Limpo Paulista",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Botujuru",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Francisco Morato",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Baltazar Fidélis",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Franco da Rocha",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Caieiras",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Perus",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Vila Aurora",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Jaraguá",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Vila Clarice",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Pirituba",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Piqueri",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Lapa - Linha 7",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Água Branca",
+        "linha": 7,
+        "cor": "Rubi"
+    },
+    {
+        "estacao": "Amador Bueno",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Ambuíta",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Cimenrita",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Santa Rita",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Itapevi",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Engenheiro Cardoso",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Sagrado Coração",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Jandira",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Jardim Silveira",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Jardim Belval",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Barueri",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Antonio João",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Santa Terezinha",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Carapicuíba",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "General Miguel Costa",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Quitaúna",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Comandante Sampaio",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Osasco",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Presidente Altino",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Imperatriz Leopoldina",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Domingo de Moraes",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Lapa - Linha 8",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Júlio Prestes",
+        "linha": 8,
+        "cor": "Diamante"
+    },
+    {
+        "estacao": "Ceasa",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Villa Lobos - Jaguaré",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Cidade Universitária",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Pinheiros",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Hebraica - Rebouças",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Cidade Jardim",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Vila Olimpia",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Berrini",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Morumbi",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Granja Julieta",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Socorro",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Jurutuba",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Autódromo",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Primavera - Interlagos",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Bruno Covas - Vila Mendes Natal",
+        "linha": 9,
+        "cor": "Esmeralda"
+    },
+    {
+        "estacao": "Juventus - Mooca",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "Ipiranga",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "São Caetano do Sul",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "Utinga",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "Prefeito Saladino",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "Santo André",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "Capuava",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "Mauá",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "Guapituba",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "Ribeirão Pires",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "Rio Grande da Serra",
+        "linha": 10,
+        "cor": "Turquesa"
+    },
+    {
+        "estacao": "Dom Bosco",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "José Bonifácio",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Guaianases",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Antônio Gianetti Neto",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Ferraz de Vasconcelos",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Poá",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Calmon Viana",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Suzano",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Jundiapeba",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Braz Cubas",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Mogi das Cruzes",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Estudantes",
+        "linha": 11,
+        "cor": "Coral"
+    },
+    {
+        "estacao": "Engenheiro Goulart",
+        "linha": 12,
+        "cor": "Safira"
+    },
+    {
+        "estacao": "USP Leste",
+        "linha": 12,
+        "cor": "Safira"
+    },
+    {
+        "estacao": "Comendador Ermelino",
+        "linha": 12,
+        "cor": "Safira"
+    },
+    {
+        "estacao": "São Miguel Paulista",
+        "linha": 12,
+        "cor": "Safira"
+    },
+    {
+        "estacao": "Jardim Helena - Vila Mara",
+        "linha": 12,
+        "cor": "Safira"
+    },
+    {
+        "estacao": "Itaim Paulista",
+        "linha": 12,
+        "cor": "Safira"
+    },
+    {
+        "estacao": "Jardim Romano",
+        "linha": 12,
+        "cor": "Safira"
+    },
+    {
+        "estacao": "Engenheiro Manoel Feio",
+        "linha": 12,
+        "cor": "Safira"
+    },
+    {
+        "estacao": "Itaquaquecetuba",
+        "linha": 12,
+        "cor": "Safira"
+    },
+    {
+        "estacao": "Aracaré",
+        "linha": 12,
+        "cor": "Safira"
+    },
+    {
+        "estacao": "Guarulhos - Cecap",
+        "linha": 13,
+        "cor": "Jade"
+    },
+    {
+        "estacao": "Aeroporto - Guarulhos",
+        "linha": 13,
+        "cor": "Jade"
+    },
+    {
+        "estacao": "Oratório",
+        "linha": 15,
+        "cor": "Prata"
+    },
+    {
+        "estacao": "São Lucas",
+        "linha": 15,
+        "cor": "Prata"
+    },
+    {
+        "estacao": "Camilo Haddad",
+        "linha": 15,
+        "cor": "Prata"
+    },
+    {
+        "estacao": "Vila Tolstói",
+        "linha": 15,
+        "cor": "Prata"
+    },
+    {
+        "estacao": "Vila União",
+        "linha": 15,
+        "cor": "Prata"
+    },
+    {
+        "estacao": "Jardim Planalto",
+        "linha": 15,
+        "cor": "Prata"
+    },
+    {
+        "estacao": "Sapopemba",
+        "linha": 15,
+        "cor": "Prata"
+    },
+    {
+        "estacao": "Fazenda da Juta",
+        "linha": 15,
+        "cor": "Prata"
+    },
+    {
+        "estacao": "São Mateus",
+        "linha": 15,
+        "cor": "Prata"
+    },
+    {
+        "estacao": "Jardim Colonial",
+        "linha": 15,
+        "cor": "Prata"
+    }
+]
